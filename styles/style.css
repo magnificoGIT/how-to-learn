@@ -27,10 +27,10 @@
 }
 
 .header__title {
+  max-width: 0;
   font-weight: 600;
   font-size: 102px;
   line-height: 96px;
-  height: 205px;
   width: 730px;
   margin-left: 64px;
   z-index: 2;
@@ -46,6 +46,11 @@
   bottom: 30px;
   position: absolute;
   z-index: 2;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -92,14 +97,14 @@
   min-width: 784px;
 }
 
-.two_columns__paragraph {
+.two-columns__paragraph {
   margin: 0;
   padding-bottom: 30px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
-.two_columns__paragraph:last-of-type {
+.two-columns__paragraph:last-of-type {
   padding-bottom: 0;
 }
 
@@ -162,15 +167,21 @@
 }
 
 .table__text {
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
+.table__text:last-of-type {
+  margin: 0;
+  margin-top: 20px;
+}
+
 .feynman {
   margin: 0;
   padding: 0;
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
@@ -205,29 +216,29 @@
   top: 50%;
   right: 48px;
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .kaufman {
+  position: relative;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   background-color: #1f1f1f;
   color: white;
-  margin: 0 auto auto 0;
-  position: relative;
+  margin: 0;
   overflow: hidden;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   margin-top: 90px;
   z-index: 2;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   z-index: 2;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   margin-bottom: 90px;
   z-index: 2;
 }
@@ -238,7 +249,7 @@
   z-index: 2;
 }
 
-.kaufman__triangel {
+.kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
   background-repeat: no-repeat;
   position: absolute;
@@ -264,15 +275,14 @@
 }
 
 .footer__column_content_copyright {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
   flex-basis: 711px;
 }
 
 .footer__author {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 18px auto;
+  margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;

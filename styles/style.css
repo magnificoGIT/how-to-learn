@@ -27,11 +27,11 @@
 }
 
 .header__title {
-  max-width: 0;
+  margin: 0;
+  max-width: 730px;
   font-weight: 600;
   font-size: 102px;
   line-height: 96px;
-  width: 730px;
   margin-left: 64px;
   z-index: 2;
 }
@@ -201,7 +201,7 @@
   text-align: center;
 }
 
-.feynman__sybtitle {
+.feynman__subtitle {
   margin: 0 auto;
   line-height: 51px;
   font-size: 36px;

@@ -1,0 +1,9 @@
+@import url(../blocks/content/two-columns/two-columns.css);
+
+.two-columns {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }

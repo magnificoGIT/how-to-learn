@@ -1,0 +1,7 @@
+@import url(../blocks/content/table/__cell/table__cell.css);
+  
+  .table__cell {
+    margin: 0;
+    margin-top: 60px;
+    width: 250px;
+  }

@@ -1,0 +1,10 @@
+@import url(../blocks/header/__square-pic/header__square-pic.css);
+
+.header__square-pic {
+    top: 64px;
+    right: 0;
+    height: 568px;
+    width: 568px;
+    background:  #2f80ed;
+    position: absolute;
+  }

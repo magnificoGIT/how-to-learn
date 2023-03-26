@@ -1,0 +1,6 @@
+ @import url(../blocks/content/two-columns/__main-text/two-columns__main-text.css);
+  
+  .two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
+  }

@@ -1,0 +1,12 @@
+@import url(../blocks/content/feynman/__link/feynman__link.css);
+
+.feynman__link {
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    color: #2f80ed;
+    text-decoration: none;
+  }

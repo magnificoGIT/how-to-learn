@@ -1,0 +1,10 @@
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+
+.header__main-illustration {
+    width: 765px;
+    height: 608px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    z-index: 1;
+  }

@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Игорь Кляйн">
     <meta name="keywords" content="HTML5, CSS,">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="pages/index.css">
     <title>Научиться учиться</title>
 </head>
-<body>
+<body class="root">
     <div class="page">
         <header class="header">
-            <img src="images/logo_place_header.svg" alt="Логотип Яндекс Практикум исполненный в чёрном цвете шрифта" class="logo logo_place_header">
+            <img class="logo logo_place_header" src="images/logo_place_header.svg" alt="Логотип Яндекс Практикум исполненный в чёрном цвете шрифта">
             <h1 class="header__title">Научиться учиться</h1>
             <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link" href="https://techrocks.ru/2019/08/28/5-great-strategies-for-learning-to-code/?ysclid=lfcydbq7q153509140" target="_blank"> Узнать →</a></p>
-            <img src="images/header-image.png" alt="Картина Решетникова Опять двойка, где мальчик принес плохие учебные отметки и на фоне растроенная семья" class="header__main-illustration">
-            <div class="header__square-pic"></div>
+            <img class="header__main-illustration"  src="images/header-image.png" alt="Картина Решетникова Опять двойка, где мальчик принес плохие учебные отметки и на фоне растроенная семья">
+            <div class="header__square-pic rotation"></div>
         </header>
         <main class="content">
             <section class="description" aria-label="Секция со статьей">
@@ -75,7 +74,7 @@
             <section class="feynman">
                 <h2 class="feynman__title">Метод Фейнмана</h2>
                 <p class="feynman__subtitle">Выучить и не забыть.</p>
-                <a href="https://habr.com/ru/company/getmeit/blog/646085/" target="_blank" class="feynman__link">Подробнее →</a>
+                <a class="feynman__link" href="https://habr.com/ru/company/getmeit/blog/646085/" target="_blank">Подробнее →</a>
             </section>
             <section class="kaufman">
                 <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
@@ -122,7 +121,7 @@
                         <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
                     </li>
                 </ul>
-                <div class="kaufman__triangle"></div>
+                <div class="kaufman__triangle rotation"></div>
             </section>
         </main>
         <footer class="footer">
@@ -145,9 +144,9 @@
                     <h3 class="footer__column-heading">Соцсети</h3>
                     <nav>
                         <ul class="footer__column-links">
-                            <li><a href="https://www.youtube.com/@YandexPracticum/about" target="_blank" class="footer__column-link"><img class="footer__social-icon" src="youtube-icon.svg" alt="Тёмная иконка YouTube в белом круге в подвале">YouTube</a></li>
+                            <li><a href="https://www.youtube.com/@YandexPracticum/about" target="_blank" class="footer__column-link"><img class="footer__social-icon" src="images/vk_color_white.svg" alt="Тёмная иконка YouTube в белом круге в подвале">YouTube</a></li>
                             <li><a href="https://vk.com/yandex.practicum" target="_blank" class="footer__column-link"><img class="footer__social-icon" src="images/vk_color_white.svg" alt="Тёмная иконка ВКонтакте в белом круге в подвале">ВКонтакте</a></li>
-                            <li><a href="https://www.tiktok.com/" target="_blank" class="footer__column-link"><img class="footer__social-icon" src="tiktok-icon.svg" alt="Тёманя иконка TikTok в белом круге в подвале">TikTok</a></li>
+                            <li><a href="https://www.tiktok.com/" target="_blank" class="footer__column-link"><img class="footer__social-icon" src="images/tiktok-icon.svg" alt="Тёманя иконка TikTok в белом круге в подвале">TikTok</a></li>
                         </ul>
                     </nav>
                 </div>

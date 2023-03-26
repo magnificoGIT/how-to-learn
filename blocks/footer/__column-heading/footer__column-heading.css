@@ -1,0 +1,8 @@
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+  
+  .footer__column-heading {
+    margin: 0 auto 20px auto;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+  }

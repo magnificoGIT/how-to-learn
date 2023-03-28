@@ -1,0 +1,7 @@
+@import url(../blocks/content/book-container/book-container.css);
+
+.book-container {
+    margin-top: 68px;
+    display: flex;
+    flex-direction: row;
+}

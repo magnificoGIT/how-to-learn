@@ -1,0 +1,6 @@
+@import url(../blocks/content/video/__iframe/video__iframe.css);
+
+.video__iframe {
+    width: 515px;
+    height: 316px;
+}

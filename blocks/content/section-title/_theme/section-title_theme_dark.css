@@ -1,0 +1,6 @@
+@import url(../blocks/content/section-title/_theme/section-title_theme_dark.css);
+
+.section-title_theme_dark {
+    margin-top: 90px;
+    z-index: 2;
+  }

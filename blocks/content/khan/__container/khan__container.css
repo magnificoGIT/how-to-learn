@@ -1,0 +1,7 @@
+@import url(../blocks/content/khan/__container/khan__container.css);
+
+.khan__container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 105px;
+}

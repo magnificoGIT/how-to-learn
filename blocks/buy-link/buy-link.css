@@ -1,0 +1,15 @@
+@import url(../blocks/buy-link/buy-link.css);
+
+.buy-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #2f80ed;
+
+}
+
+.buy-link:hover {
+    opacity: .7;
+    transition: .6s ease;
+}

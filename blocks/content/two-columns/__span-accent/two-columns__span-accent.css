@@ -1,8 +1,0 @@
-@import url(../blocks/content/two-columns/__span-accent/two-columns__span-accent.css);
-  
-  .two-columns__span-accent {
-    margin: 0;
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: 600;
-  }

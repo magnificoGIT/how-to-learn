@@ -1,0 +1,5 @@
+@import url(../blocks/description/description.css);
+
+.description {
+    margin: 100px auto;
+  }

@@ -1,0 +1,5 @@
+@import url(../blocks/video/video.css);
+
+.video {
+    transform: translateY(50px);
+}

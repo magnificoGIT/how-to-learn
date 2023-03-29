@@ -1,0 +1,9 @@
+@import url(../blocks/digits.css/digits.css);
+  
+  .digits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    position: relative;
+  }

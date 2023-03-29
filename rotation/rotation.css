@@ -1,5 +1,3 @@
-@import url(../rotation/rotation.css);
-/*ВРАЩЕНИЕ НА 360 ГРАДУСОВ*/
 @keyframes spin {
     0% {
       transform: rotate(0deg);
@@ -9,7 +7,7 @@
       transform: rotate(360deg);
     }
   }
-
+/*ВРАЩЕНИЕ НА 360 ГРАДУСОВ*/
   .rotation {
   animation: spin 20s linear infinite;
   }

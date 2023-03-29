@@ -1,6 +1,4 @@
-@import url(../blocks/section-title/section-title.css);
-  
-  .section-title {
+.section-title {
     width: 60%;
     line-height: 1.15;
     font-size: 60px;

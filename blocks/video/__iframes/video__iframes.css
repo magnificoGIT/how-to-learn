@@ -1,5 +1,3 @@
-@import url(../blocks/video/__iframes/video__iframes.css);
-
 .video__iframes {
     width: 1050px;
     display: flex;

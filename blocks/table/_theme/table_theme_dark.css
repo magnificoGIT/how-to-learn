@@ -1,6 +1,4 @@
-@import url(../blocks/table/_theme/table_theme_dark.css);
-  
-  .table_theme_dark {
+.table_theme_dark {
     margin-bottom: 90px;
     z-index: 2;
   }

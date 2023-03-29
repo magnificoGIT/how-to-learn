@@ -1,6 +1,4 @@
-@import url(../blocks/table/table.css);
-  
-  .table {
+.table {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

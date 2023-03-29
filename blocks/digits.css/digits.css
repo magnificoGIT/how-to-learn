@@ -1,6 +1,4 @@
-@import url(../blocks/digits.css/digits.css);
-  
-  .digits {
+.digits {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

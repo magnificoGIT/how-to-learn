@@ -1,6 +1,6 @@
 @import url(../blocks/footer/__author/footer__author.css);
   
-  .footer__author {
+.footer__author {
     margin: 18px 0;
     line-height: 25px;
     font-size: 18px;
